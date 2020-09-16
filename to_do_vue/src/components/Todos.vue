@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h2>Shit I need to get done:</h2>
+    <h2>My to-dos:</h2>
+    <ul>
+      <li v-bind:key="todo.id" v-for="todo in todos">
+        <Todo v-bind:todo="todo" v-on:delete-todo="$emit('delete-        todo', todo.id)" />
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -10,7 +15,8 @@ export default {
   name: "Todos",
   components: {
     Todo
-  }
+  },
+  props: ["todos"]
 };
 </script>
 
