@@ -1,29 +1,49 @@
 <template>
   <div id="app">
-    <Test />
+    <Todos />
   </div>
 </template>
 
 <script>
-import Test from "./components/Test.vue";
-
+import Todos from "../src/components/Todos";
 export default {
-  name: "App",
+  name: "app",
   components: {
-    Test
+    Todos
+  },
+  data() {
+    return {
+      todos: [
+        {
+          id: 1,
+          title: "Go for a walk",
+          completed: false
+        },
+        {
+          id: 2,
+          title: "One hour of coding",
+          completed: false
+        },
+        {
+          id: 3,
+          title: "Make dinner",
+          completed: false
+        },
+        {
+          id: 4,
+          title: "Do Laundry",
+          completed: false
+        },
+        {
+          i: 5,
+          title: "Finish monthly report",
+          completed: false
+        }
+      ]
+    };
   }
 };
 </script>
 
 <style>
-body {
-  background-color: black;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
 </style>
