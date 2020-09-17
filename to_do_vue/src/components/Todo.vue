@@ -24,7 +24,7 @@ export default {
 #notes {
   position: relative;
   left: 76px;
-  bottom: 15px;
+  bottom: 65px;
 }
 p {
   color: rgb(70, 70, 70);

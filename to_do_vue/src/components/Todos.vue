@@ -26,6 +26,7 @@ h2 {
   font-size: 2.5em;
   position: relative;
   left: 2.6em;
+  bottom: 60px;
 }
 ul {
   list-style-type: none;

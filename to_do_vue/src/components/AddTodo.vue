@@ -36,13 +36,13 @@ button {
   font-family: "Shadows Into Light", cursive;
   height: 30px;
   position: relative;
-  top: 220px;
+  top: 200px;
   right: 110px;
 }
 input {
   height: 24px;
   position: relative;
-  top: 220px;
-  right: 110px;
+  top: 200px;
+  right: 112px;
 }
 </style>

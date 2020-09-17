@@ -56,7 +56,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
-  width: 450px;
+  height: 600px;
+  width: 550px;
+  background: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.25));
+  background-color: #fffd75;
+  box-shadow: 5px 5px 10px -2px rgba(124, 108, 108, 0.3);
+  z-index: 1;
 }
 </style>
