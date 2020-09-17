@@ -50,4 +50,12 @@ export default {
 };
 </script>
 <style>
+#app {
+  background-color: rgb(255, 255, 136);
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 </style>
