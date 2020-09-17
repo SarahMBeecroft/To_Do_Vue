@@ -30,4 +30,19 @@ export default {
 };
 </script>
 <style scoped>
+button {
+  background-color: rgb(255, 255, 136);
+  margin: 6px;
+  font-family: "Shadows Into Light", cursive;
+  height: 30px;
+  position: relative;
+  top: 220px;
+  right: 110px;
+}
+input {
+  height: 24px;
+  position: relative;
+  top: 220px;
+  right: 110px;
+}
 </style>

@@ -21,6 +21,15 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  color: rgb(70, 70, 70);
+  font-size: 2.5em;
+  position: relative;
+  left: 2.6em;
+}
+ul {
+  list-style-type: none;
+}
 </style>
 
 

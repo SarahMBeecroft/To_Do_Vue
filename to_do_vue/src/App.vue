@@ -23,17 +23,17 @@ export default {
         },
         {
           id: 2,
-          title: "Cook dinner",
+          title: "Work on blog post",
           completed: false
         },
         {
           id: 3,
-          title: "Finish blog post",
+          title: "Duolingo practice",
           completed: false
         },
         {
           id: 4,
-          title: "Duolingo practice",
+          title: "Cook Dinner",
           completed: false
         }
       ]
@@ -56,6 +56,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 500px;
+  width: 450px;
 }
 </style>
